@@ -8,5 +8,5 @@ RUN mkdir /opt/wrk2 && \
     cd /opt/wrk2 && \
     make
 
-ENTRYPOINT /opt/wrk2/wrk
+ENTRYPOINT ["/opt/wrk2/wrk"]
 
